@@ -14,7 +14,7 @@ import footerVector1 from "@public/footer-vector-2.png";
 function Footer() {
   return (
     <div className="">
-      <footer className="bg-footer-shape bg-cover pb-3 pt-20  z-10 relative  ">
+      <footer className="bg-footer-shape bg-[length:100%_100%] pb-3 pt-20  z-10 relative  ">
         <Image
           src={footerVector2}
           className="absolute right-0 bottom-0 max-w-[250px]"

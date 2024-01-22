@@ -39,8 +39,8 @@ function Hero() {
         </div>
         <div className="w-[55%] flex flex-col items-end">
           <Image src={bannerShape1} alt="" className="w-[85%]" />
-          <div className="relative top-[-40px] flex justify-end right-[40px]">
-            <Image src={bannerShape2} alt="" className="w-[70%]" />
+          <div className="relative w-full top-[-50px] flex justify-end right-[15px] after:absolute after:border-r-[1px] after:w-[60%] after:h-full after:border-primary-color after:-right-[15px] after:border-b-[1px] after:-bottom-[15px] after:rounded-ee-[138px]">
+            <Image src={bannerShape2} alt="" className="w-[60%]" />
           </div>
         </div>
       </div>
