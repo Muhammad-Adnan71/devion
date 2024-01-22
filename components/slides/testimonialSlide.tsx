@@ -18,7 +18,7 @@ function TestimonialSlide({
         <Image
           src={image}
           alt=""
-          className="absolute left-0 bottom-0 max-w-[350px]"
+          className="absolute h-[95%] left-0 bottom-0 max-w-[360px]"
         ></Image>
       </div>
       <div className="w-[60%] relative  ">

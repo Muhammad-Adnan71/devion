@@ -13,7 +13,7 @@ function TestimonialsSection() {
       <Image
         src={testimonialVector}
         alt=""
-        className="absolute right-0 bottom-[-200px] max-w-[250px] z-index[-1]"
+        className="absolute right-0 bottom-[-200px] max-w-[300px] z-index[-1]"
       />
       <div className="container m-auto">
         <Carousel

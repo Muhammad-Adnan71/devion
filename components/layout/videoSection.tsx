@@ -18,7 +18,7 @@ function VideoSection() {
             />
             <ButtonDefault
               buttonType="secondary"
-              className="absolute bottom-[30px] w-12 h-12 right-[30px] z-20 rounded-[50%] !p-0 flex items-center justify-center"
+              className="!absolute bottom-[30px] w-12 h-12 right-[30px] z-20 rounded-[50%] !p-0 flex items-center justify-center"
             >
               <FontAwesomeIcon
                 icon={faPlay}
