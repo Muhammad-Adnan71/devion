@@ -22,7 +22,7 @@ function TestimonialSlide({
         ></Image>
       </div>
       <div className="w-[60%] relative  ">
-        <span className="block py-2 px-12 rounded-[100px] bg-primary-color text-white text-[30px] w-fit absolute -top-[50%] left-[50%]  translate-x-[-50%]">
+        <span className="block py-2 px-12 rounded-[100px] bg-primary-color text-white text-[30px] w-fit absolute -top-[50%] left-[50%]  translate-x-[-50%] translate-y-[20px] whitespace-nowrap">
           {name}
         </span>
         <p className="text-secondary-text-color mb-10 text-[18px]">
