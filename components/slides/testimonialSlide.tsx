@@ -13,7 +13,7 @@ function TestimonialSlide({
   company: string;
 }) {
   return (
-    <div className="py-16 px-24 mt-10 rounded-[250px] border-2 border-primary-color flex justify-between items-start bg-white">
+    <div className="py-16 px-24 mt-14 rounded-[250px] border-2 border-primary-color flex justify-between items-start bg-white">
       <div className="w-[40%]  ">
         <Image
           src={image}
