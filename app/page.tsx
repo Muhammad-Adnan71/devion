@@ -7,7 +7,7 @@ import VideoSection from "@components/layout/videoSection";
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <VideoSection />
       <AvailabilitySection />
       <ValuesSection />
