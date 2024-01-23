@@ -1,13 +1,15 @@
 "use client";
 import { Carousel } from "@utils/mui-tailwind";
-import React from "react";
+import React, { useRef } from "react";
 import testimonial from "@public/testimonial.png";
 import testimonialVector from "@public/testimonial-vector.png";
 import TestimonialSlide from "@components/slides/testimonialSlide";
 import SliderButton from "@components/buttons/sliderButton";
 import Image from "next/image";
+import { slideRef } from "@material-tailwind/react/types/components/carousel";
 
 function TestimonialsSection() {
+  const slideRef = useRef<HTMLDivElement>(null);
   return (
     <section className=" py-8 pb-[100px] relative">
       <Image
@@ -17,6 +19,7 @@ function TestimonialsSection() {
       />
       <div className="container m-auto">
         <Carousel
+          ref={slideRef}
           placeholder={""}
           transition={{ duration: 2, type: "tween" }}
           prevArrow={({ handlePrev }) => (
