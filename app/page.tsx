@@ -5,7 +5,6 @@ import ValuesSection from "@components/layout/valuesSection";
 import VideoSection from "@components/layout/videoSection";
 
 export default function Home() {
-  console.log("hello");
   return (
     <>
       <Hero />
