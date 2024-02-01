@@ -4,7 +4,7 @@ import Link from "next/link";
 import ButtonDefault from "@components/buttons/button";
 import Image from "next/image";
 import profile from "@public/profile.png";
-import menu from "@public/menu.png";
+import menu from "@public/Menu.svg";
 
 function Navbar() {
   const [openNav, setOpenNav] = React.useState(false);

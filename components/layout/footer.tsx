@@ -50,7 +50,7 @@ function Footer() {
               <li>
                 <Link
                   href={""}
-                  className="text-white text-[16px] max-lg:text-[14px] max-md:mb-1 font-[300] mb-3   block"
+                  className="text-white text-[16px] max-lg:text-[14px] max-md:mb-1 font-[300] mb-3 block"
                 >
                   Professional
                 </Link>
