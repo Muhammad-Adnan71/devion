@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const withMT = require("@material-tailwind/react/utils/withMT");
-
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = withMT({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,6 +18,7 @@ module.exports = withMT({
       "min-md": { min: "768px" },
       "min-sm": { min: "640px" },
       '2xl': '1400px',
+      ...defaultTheme.screens
     },
     container: {
     },

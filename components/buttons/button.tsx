@@ -34,7 +34,7 @@ export default function ButtonDefault({
       placeholder={""}
       {...rest}
       className={twMerge(
-        `p-[9px_22px_9px_22px] capitalize text-[14px] rounded-[10px] !font-semibold`,
+        `p-[9px_22px_9px_22px] capitalize text-[14px] rounded-[10px] !font-semibold [@media(max-width:355px)]:text-[11px]`,
         buttonStyle[buttonType].style,
         className
       )}
