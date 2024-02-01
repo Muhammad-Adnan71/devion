@@ -9,10 +9,10 @@ function SocialIcon({ name }: { name: "facebook" | "linkedin" }) {
     facebook: faFacebookF,
     linkedin: faLinkedinIn,
   };
-  
+
   return (
     <Link
-      className="w-12 h-12  rounded-full border-[1px] border-primary-color flex justify-center items-center text-primary-color"
+      className="w-12 h-12  max-md:w-10 max-md:h-10 rounded-full border-[1px] max-md:border-[2px] border-primary-color flex justify-center items-center text-primary-color"
       href=""
     >
       <FontAwesomeIcon icon={icon[name]} className="w-[14px] h-[14px] " />

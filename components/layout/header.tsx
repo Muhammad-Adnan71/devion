@@ -7,9 +7,13 @@ import Navbar from "./navbar";
 function Header() {
   return (
     <header className="bg-white">
-      <div className="container mx-auto flex justify-between items-center py-6 ">
+      <div className="container mx-auto flex justify-between items-center py-6 max-md:py-2 ">
         <Link href={"/"}>
-          <Image src={logo} alt="logo" className="max-w-[160px]" />
+          <Image
+            src={logo}
+            alt="logo"
+            className="max-w-[160px] max-sm:max-w-[130px]"
+          />
         </Link>
         <Navbar />
       </div>
