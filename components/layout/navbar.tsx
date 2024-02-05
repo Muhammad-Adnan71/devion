@@ -88,37 +88,6 @@ function Navbar() {
           <Image src={menu} alt="profile" className="w-[35px] h-[35px]" />
         </ButtonDefault>
       </div>
-      {/* <Drawer
-        placeholder=""
-        placement="right"
-        open={isopenDrawer}
-        onClose={closeDrawer}
-        className="max-md:!max-w-[768px] "
-      >
-        <div className="mb-6 flex items-center justify-between">
-          <IconButton
-            placeholder=""
-            variant="text"
-            color="blue-gray"
-            onClick={closeDrawer}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </IconButton>
-        </div>
-      </Drawer> */}
       <div
         className={`md:hidden fixed top-0 z-[9999] transition-all ease-in-out duration-500 w-full h-svh bg-[#1F1233] ${
           isOpenDrawer ? "right-0" : "-right-full"
