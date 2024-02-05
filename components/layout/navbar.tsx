@@ -90,7 +90,7 @@ function Navbar() {
       </div>
       <div
         className={`md:hidden fixed top-0 z-[9999] transition-all ease-in-out duration-500 w-full h-svh bg-[#1F1233] ${
-          isOpenDrawer ? "right-0" : "-right-full"
+          isOpenDrawer ? "right-0 opacity-100" : "-right-full opacity-0"
         }`}
       >
         <div className="w-4/5 flex h-full flex-col justify-between max-sm:w-[90%] mx-auto">
